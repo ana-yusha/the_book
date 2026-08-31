@@ -5,4 +5,5 @@
 - [x] Review `book2.html` for duplicate Image Threads and sequential numbering.
 - [x] Verify the Book One to Book Two link and the return link from Book Two to Book One.
 - [x] Run HTML diagnostics on `index.html` and `book2.html`.
-- [ ] Review the published site after deployment.
+- [ ] Configure DNS for `www.thebookofyusha.com`; the domain currently has no resolvable DNS record.
+- [ ] Review the published site after the custom domain resolves.
