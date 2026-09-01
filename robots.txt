@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ana-yusha.github.io/the_book/sitemap.xml
