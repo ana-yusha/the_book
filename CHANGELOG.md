@@ -21,6 +21,7 @@ All notable editorial, structure, accessibility, and source-accuracy updates to 
 - A home-page reflection image with accessible text and an unverified-attribution disclaimer.
 - A Book One Genesis opening that distinguishes the biblical narrative from reflective readings of blame, embodiment, responsibility, and forgiveness.
 - A Book One section on gendered blame, the meanings of goy and goyim, Cain and Abel, stigma, and shared human dignity.
+- A home-page Grace-Salvation reflection that labels a personal sacred phrase as symbolic language rather than standard Latin or a call to harm.
 - Editorial revision notices and a visible last-updated date on the home page.
 
 ### Changed
