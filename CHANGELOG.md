@@ -13,6 +13,9 @@ All notable editorial, structure, accessibility, and source-accuracy updates to 
 - A three-part Book Two appendix on numerology, astrology, and reading symbols in small, checkable parts.
 - A granular Hebrew speech study and five labeled source-note image fragments in Book One.
 - A concise home-page note on the transliteration history of Yeshua, Jesus, and Isa.
+- A cross-book map connecting language, memory, the Tree, tesseract metaphor, computer mapping, and the Golden Rule.
+- Book Two reflections on the five elements, emotions, the four corners, and Watchers as figures in Enochic literature.
+- A historical note on Arius, the Council of Nicaea, Constantine, and the limits of institutional narrative.
 - Editorial revision notices and a visible last-updated date on the home page.
 
 ### Changed
@@ -21,6 +24,7 @@ All notable editorial, structure, accessibility, and source-accuracy updates to 
 - Updated Book Two navigation to link to Book One and the home page.
 - Replaced unsupported language claims with distinctions between literal translations, historical tradition, and personal reflection.
 - Repaired the root page after a legacy HTML document had been appended after its closing tag.
+- Kept generated image-text indexes and research tooling local and ignored by Git.
 
 ### Accessibility
 

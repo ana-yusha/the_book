@@ -1,3 +1,8 @@
 images/*
 !images/whitelist/
 !images/whitelist/**
+images_text_index.md
+image_threads_history.md
+private_notes/
+tools/extract_historical_image_threads.ps1
+tools/extract_image_text.ps1
