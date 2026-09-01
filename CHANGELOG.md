@@ -10,6 +10,9 @@ All notable editorial, structure, accessibility, and source-accuracy updates to 
 - Crisis-support and personal-safety notices on the published pages.
 - A respectful-language and plain-language guidance section on the home page.
 - Tree of Life, balance, virtues and sins, tesseract, language, childhood, and seasonal-reflection material in the books.
+- A three-part Book Two appendix on numerology, astrology, and reading symbols in small, checkable parts.
+- A granular Hebrew speech study and five labeled source-note image fragments in Book One.
+- A concise home-page note on the transliteration history of Yeshua, Jesus, and Isa.
 - Editorial revision notices and a visible last-updated date on the home page.
 
 ### Changed

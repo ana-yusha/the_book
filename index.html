@@ -22,6 +22,11 @@
     h1, h2 { font-family: "Palatino Linotype", Palatino, Georgia, serif; font-weight: normal; }
     h1 { max-width: 10ch; margin: 0; font-size: clamp(3.4rem, 9vw, 7rem); line-height: .9; }
     .intro { max-width: 43rem; margin: 30px 0 58px; font-size: clamp(1.1rem, 2vw, 1.35rem); }
+    .name-note { max-width: 62ch; margin: -28px 0 52px; padding: 22px 24px; border-left: 3px solid var(--clay); background: var(--soft); }
+    .name-note h2 { max-width: none; margin: 26px 0 8px; color: var(--ink); font-size: 1.35rem; line-height: 1.2; }
+    .name-note h2:first-child { margin-top: 0; }
+    .name-note p { margin: 0; }
+    .name-note h2 + p { margin-bottom: 18px; }
     .rule { border: 0; border-top: 1px solid var(--rule); }
     .books { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; padding: 38px 0 60px; }
     .book { display: flex; min-height: 300px; flex-direction: column; justify-content: space-between; padding: 30px; border: 1px solid var(--rule); background: #fffdf7; text-decoration: none; }
@@ -55,6 +60,14 @@
       <p class="eyebrow">A reading series</p>
       <h1>The Book of Yusha</h1>
       <p class="intro">A place to read, reflect, and return. Begin with the first book or continue into the second.</p>
+      <section class="name-note" aria-labelledby="yeshua-name">
+        <h2 id="yeshua-name">Hebrew Letters and Yeshua</h2>
+        <p>The English name &ldquo;Jesus&rdquo; is a transliteration, a conversion of sounds rather than a direct translation. The name moved from Hebrew and Aramaic forms associated with Yeshua through Greek <em>Iesous</em> and Latin <em>Iesus</em> into English. See the linked <a href="https://www.youtube.com/watch?v=7P1KPA4cuB8">video discussion</a> and <a href="https://www.reddit.com/r/Bible/comments/e3suka/how_accurate_of_a_translation_is_the_name_jesus/">reader discussion</a> as starting points, and compare them with scholarly language references.</p>
+        <h2>How &ldquo;Jesus&rdquo; Developed</h2>
+        <p>The name is related to the Hebrew name Yehoshua and its later form Yeshua. Each language used its own sound system and writing conventions, so the spelling changed as the name passed between communities. Transliteration records that history; it does not by itself settle theological questions.</p>
+        <h2>The Arabic Name &ldquo;Isa&rdquo; (<span lang="ar" dir="rtl">عيسى</span>)</h2>
+        <p>In the Quran and Islamic tradition, Jesus is called Isa. The name is central to Islamic scripture and devotion. Its precise historical linguistic path has been debated by scholars, so this site treats it with respect and avoids claiming that one simple spelling path explains every tradition.</p>
+      </section>
     </header>
     <hr class="rule">
     <nav class="books" aria-label="Books in the series">
