@@ -29,6 +29,16 @@
          body.c23 > ol.c22 { padding-top: 0; padding-bottom: 28px; }
          body.c23 aside { margin-bottom: 16px; }
          @media (max-width: 540px) { body.c23 { font-size: 17px; padding-top: 16px; } body.c23 > .c27.title { min-height: 260px; } body.c23 > h2.c5, body.c23 section h2 { margin-top: 28px; padding-top: 42px; } }
+         /* Override Google Docs export sizing so the manuscript remains one readable page. */
+         body.c23 { width: 100% !important; max-width: none !important; background: var(--paper) !important; }
+         body.c23 > * { width: calc(100% - 32px) !important; max-width: 980px !important; margin-right: auto !important; margin-left: auto !important; }
+         body.c23 > .c27.title, body.c23 > .c5, body.c23 > section, body.c23 > table, body.c23 > ol { background: transparent !important; }
+         body.c23 > .c27.title { margin-bottom: 32px; }
+         body.c23 > .c5, body.c23 > section, body.c23 > table, body.c23 > ol { padding-right: clamp(20px, 6vw, 72px) !important; padding-left: clamp(20px, 6vw, 72px) !important; }
+         body.c23 a { overflow-wrap: anywhere; }
+         body.c23 > p.c5 > span[style*="inline-block"] { display: block !important; width: 100% !important; height: auto !important; overflow: visible !important; }
+         body.c23 > table.c24 { display: table !important; width: calc(100% - 32px) !important; max-width: 980px !important; table-layout: fixed !important; }
+         body.c23 > table.c24 td { width: auto !important; min-width: 0 !important; padding: 6px !important; overflow-wrap: anywhere; }
       </style>
    </head>
    <body class="c23">
