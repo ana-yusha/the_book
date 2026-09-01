@@ -6,4 +6,5 @@
 - [x] Verify the Book One to Book Two link and the return link from Book Two to Book One.
 - [x] Run HTML diagnostics on `index.html` and `book2.html`.
 - [x] Remove the unresolved `www.thebookofyusha.com` custom-domain configuration.
-- [ ] Review the published site at `https://ana-yusha.github.io/the_book/` after GitHub Pages redeploys.
+- [x] Review the published site at `https://ana-yusha.github.io/the_book/` after GitHub Pages redeploys.
+- [ ] Add a sourced numerology and astrology reference section that recognizes their historical and symbolic importance without treating either as an explanation for all things; organize the material in small, clearly labeled parts so readers can examine one idea at a time.
