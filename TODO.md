@@ -10,6 +10,6 @@
 - [x] Add a sourced numerology and astrology reference section that recognizes their historical and symbolic importance without treating either as an explanation for all things; organize the material in small, clearly labeled parts so readers can examine one idea at a time.
 - [x] Draft and publish Book Four: Earth, pairing grounding with stagnation and preserving famine as its concrete shadow.
 - [x] Draft and publish Book Five: Wind, pairing perspective with confusion and grounding the book in breath, language, and information.
-- [x] Establish the Book Six Fire draft: courage with purposeful destruction, bounded by accountability.
-- [x] Establish the Book Seven Aether draft: conscience with false certainty, including Adam's fall and Lucifer's symbolic overreach.
-- [ ] Add Books Five through Seven to the index as each manuscript becomes publishable.
+- [x] Draft and publish Book Six: Fire, pairing courage with purposeful destruction and accountability.
+- [x] Draft and publish Book Seven: Aether, pairing conscience with false certainty and including Adam's fall and Lucifer's symbolic overreach.
+- [x] Add Books Five through Seven to the index as each manuscript becomes publishable.

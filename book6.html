@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Book of Yusha, Part Six: Fire - reflections on courage, purposeful destruction, anger, and accountability.">
+  <link rel="canonical" href="https://ana-yusha.github.io/the_book/book6.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Book of Yusha | Part Six: Fire">
+  <meta property="og:description" content="A reflection on courage, purposeful endings, anger, power, and the discipline to stop.">
+  <meta property="og:url" content="https://ana-yusha.github.io/the_book/book6.html">
+  <title>The Book of Yusha | Part Six: Fire</title>
+  <style>
+    :root { --canvas: #eee0d4; --paper: #fffaf5; --ink: #332722; --quiet: #75645b; --accent: #b65335; --rule: #dec7b7; --shade: #f8e9dd; --deep: #602e22; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: repeating-linear-gradient(0deg, var(--canvas) 0, var(--canvas) 3px, #e7d6c8 4px); color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.78; }
+    a { color: var(--accent); }
+    .book { width: min(100%, 860px); min-height: 100vh; margin: 0 auto; padding: 38px clamp(20px, 6vw, 72px) 72px; background: var(--paper); box-shadow: 0 0 28px rgba(96, 46, 34, .12); }
+    .masthead, .chapter-label, .contents-title, .folio { font-family: "Palatino Linotype", Palatino, Georgia, serif; letter-spacing: .12em; text-transform: uppercase; }
+    .masthead { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); color: var(--quiet); font-size: .72rem; }
+    .title-page { min-height: 440px; display: grid; place-content: center; text-align: center; border-bottom: 1px solid var(--rule); }
+    h1, h2, h3 { font-weight: normal; }
+    h1 { margin: 0; font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: clamp(2.8rem, 8vw, 5rem); line-height: 1; }
+    .part { margin: 18px 0 0; color: var(--accent); font-size: .9rem; letter-spacing: .14em; text-transform: uppercase; }
+    .subtitle { max-width: 34ch; margin: 26px auto 0; color: var(--quiet); font-size: 1.25rem; line-height: 1.45; }
+    .contents { padding: 56px 0 42px; border-bottom: 1px solid var(--rule); }
+    .contents-title { margin: 0 0 20px; color: var(--quiet); font-size: .78rem; }
+    .contents ol { margin: 0; padding: 0; list-style: none; }
+    .contents li { border-bottom: 1px dotted var(--rule); }
+    .contents a { display: flex; justify-content: space-between; gap: 18px; padding: 9px 0; color: var(--ink); text-decoration: none; }
+    .contents a:hover { color: var(--accent); }
+    .chapter { padding: 68px 0 28px; scroll-margin-top: 16px; }
+    .chapter + .chapter { border-top: 1px solid var(--rule); }
+    .chapter-label { margin: 0 0 12px; color: var(--accent); font-size: .73rem; }
+    h2 { max-width: 20ch; margin: 0 0 30px; font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.08; }
+    h3 { margin: 38px 0 12px; font-size: 1.3rem; line-height: 1.25; }
+    p { margin: 0 0 22px; }
+    .opening::first-letter { float: left; margin: 7px 10px 0 0; color: var(--accent); font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: 4.5rem; line-height: .7; }
+    blockquote { margin: 34px 0; padding: 20px 24px; border-left: 3px solid var(--accent); background: var(--shade); color: var(--deep); font-size: 1.1rem; font-style: italic; }
+    .reflection { margin: 34px 0; padding: 22px 24px; border: 1px solid var(--rule); background: #fff6ee; }
+    .reflection h3 { margin-top: 0; color: var(--accent); font-size: 1rem; }
+    .reflection p:last-child { margin-bottom: 0; }
+    .paired { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 28px 0 34px; }
+    .paired div { padding: 18px 20px; border: 1px solid var(--rule); background: var(--shade); }
+    .paired h3 { margin: 0 0 8px; color: var(--accent); font-size: 1.05rem; }
+    .paired p { margin: 0; font-size: .96rem; line-height: 1.55; }
+    .note { color: var(--quiet); font-size: .94rem; }
+    .afterword { padding: 58px 0 0; text-align: center; }
+    .afterword p { max-width: 42ch; margin-right: auto; margin-left: auto; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .skip-link { position: absolute; z-index: 1; top: 0; left: 0; padding: 12px 16px; background: var(--ink); color: #fff; transform: translateY(-120%); }
+    .skip-link:focus { transform: translateY(0); }
+    .folio { margin-top: 58px; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--quiet); font-size: .68rem; text-align: center; }
+    @media (max-width: 540px) { body { font-size: 17px; } .book { padding-top: 24px; } .masthead { font-size: .62rem; } .title-page { min-height: 360px; } .chapter { padding-top: 52px; } .paired { grid-template-columns: 1fr; } }
+    @media print { body { background: #fff; } .book { width: auto; padding: 0; box-shadow: none; } .chapter { break-before: page; } .title-page { break-after: page; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to main content</a>
+  <main class="book" id="content" tabindex="-1">
+    <div class="masthead"><a href="index.html">The Book of Yusha</a><a href="book5.html">Part Five: Wind</a></div>
+    <header class="title-page" id="beginning"><div><p class="part">Part Six</p><h1>Fire</h1><p class="subtitle">Courage, anger, desire, and the discipline of ending what must end without becoming destruction.</p></div></header>
+    <nav class="contents" aria-label="Table of contents"><p class="contents-title">Contents</p><ol>
+      <li><a href="#spark"><span>1. The First Spark</span><span>I</span></a></li>
+      <li><a href="#light"><span>2. Heat and Light</span><span>II</span></a></li>
+      <li><a href="#purpose"><span>3. Purposeful Destruction</span><span>III</span></a></li>
+      <li><a href="#rage"><span>4. Rage as Fuel</span><span>IV</span></a></li>
+      <li><a href="#hilt"><span>5. The Sword and the Hilt</span><span>V</span></a></li>
+      <li><a href="#ash"><span>6. Ash and Accountability</span><span>VI</span></a></li>
+      <li><a href="#carried"><span>7. A Fire That Can Be Carried</span><span>VII</span></a></li>
+    </ol></nav>
+    <article>
+      <section class="chapter" id="spark"><p class="chapter-label">Chapter One</p><h2>The First Spark</h2>
+        <p class="opening">Fire begins as a small decision to move. It can warm a body, reveal a path, cook food, or signal for help. It can also become larger than the hand that started it. The first question is not whether fire is good or evil. It is what the energy is serving.</p>
+        <p>Fire's constructive movement is courage: enough heat to act, enough light to see, and enough discipline to stop. Its harmful distortion is destruction without purpose: rage that treats people as fuel, power that burns what it claims to save, and urgency that refuses to count the cost.</p>
+        <div class="paired"><div><h3>Courage</h3><p>Energy directed toward protection, repair, truth, and necessary change.</p></div><div><h3>Destruction</h3><p>Force that consumes people, homes, trust, or futures without necessity or accountability.</p></div></div>
+        <div class="reflection"><h3>The spark test</h3><p>What am I trying to protect? What am I about to set in motion? Who will bear the heat if I am wrong?</p></div>
+      </section>
+      <section class="chapter" id="light"><p class="chapter-label">Chapter Two</p><h2>Heat and Light</h2>
+        <p class="opening">Light makes a hidden edge visible. Heat makes change possible. Courage can do both: it can tell the truth about harm and create the energy needed for repair. But light without mercy can become exposure, and heat without measure can become injury.</p>
+        <p>The purpose of action is not to prove strength. It is to serve life more honestly than inaction would. A difficult conversation, a boundary, an apology, or a call for help can be fire in this sense: focused, difficult, and accountable to what happens next.</p>
+      </section>
+      <section class="chapter" id="purpose"><p class="chapter-label">Chapter Three</p><h2>Purposeful Destruction</h2>
+        <p class="opening">Destruction can have a limited purpose. A controlled burn may reduce dangerous growth. Demolition may remove an unsafe structure. An ending may stop abuse or prevent further harm. These examples do not make destruction holy or automatically wise.</p>
+        <p>The test is necessity, proportionality, protection of vulnerable people, and responsibility for what follows. Before destroying, ask whether a less harmful path can reach the same end. After acting, do not hide behind the word purpose. Measure the result against the people who had to live through it.</p>
+        <blockquote>A purposeful ending is still accountable for the ashes it leaves behind.</blockquote>
+      </section>
+      <section class="chapter" id="rage"><p class="chapter-label">Chapter Four</p><h2>Rage as Fuel</h2>
+        <p class="opening">Anger can reveal that a boundary has been crossed. It can give a frightened person the energy to leave danger or defend someone vulnerable. But anger is information, not a complete command. When rage becomes the ruler, every obstacle begins to look like an enemy.</p>
+        <p>Rage as fuel consumes distinction. It forgets the difference between the person who caused harm and everyone who resembles that person. It treats humiliation as justice and escalation as proof of courage. The work is not to deny anger, but to place it in a larger vessel of truth, restraint, and care.</p>
+        <div class="reflection"><h3>When the heat rises</h3><p>Pause, create distance, and do not act while you may harm someone. Contact a trusted person or emergency support when danger is immediate. A safe interruption is not cowardice; it is the first act of control.</p></div>
+      </section>
+      <section class="chapter" id="hilt"><p class="chapter-label">Chapter Five</p><h2>The Sword and the Hilt</h2>
+        <p class="opening">The sword marks a line: this matters, this cannot continue, this person deserves protection. The hilt is the discipline that keeps the line from becoming a weapon of ego. It gives the hand a way to hold power and a way to stop.</p>
+        <p>Courage without mercy becomes violence. Mercy without courage can leave people exposed to preventable harm. A faithful boundary is clear about what it protects, proportionate to the danger, and open to correction when new facts appear.</p>
+      </section>
+      <section class="chapter" id="ash"><p class="chapter-label">Chapter Six</p><h2>Ash and Accountability</h2>
+        <p class="opening">After fire, the remaining work is not symbolic. Someone must examine the damage, care for the injured, tell the truth, and decide what can be rebuilt. A person who claims noble purpose does not get to skip this work.</p>
+        <p>Accountability asks who chose, who was affected, what alternatives were ignored, and what repair is possible. It also asks what must not be rebuilt in its old form. Ash is memory without spectacle: evidence that an action changed the world. When the destruction was necessary and the survivors are cared for, the cleared ground can become the beginning of a better life. Rebirth is not a return to innocence or an erasure of loss; it is a new form built with the old harm understood.</p>
+      </section>
+      <section class="chapter" id="carried"><p class="chapter-label">Chapter Seven</p><h2>A Fire That Can Be Carried</h2>
+        <p class="opening">The best fire does not demand that everything burn. It becomes a steady lamp, a shared warmth, or the courage to begin again. Fire returns to Aether when energy is joined to conscience and to Earth when action becomes practical.</p>
+        <p>Carry the part that gives light. Release the part that only consumes. Purposeful destruction leads toward rebirth when it makes room for safer relationships, wiser structures, and more merciful choices. The next book will ask what holds the elements together when desire reaches beyond its proper share and certainty claims authority over conscience.</p>
+        <div class="reflection"><h3>The closing question</h3><p>What deserves my courage? What must end? What must remain protected after the ending? Let the answer include both action and restraint.</p></div>
+      </section>
+    </article>
+    <div class="afterword"><p>May our courage give warmth and light. May our endings protect life, and may we answer for what the fire leaves behind.</p></div>
+    <nav class="folio" aria-label="Series navigation"><a href="index.html">Home</a> &middot; <a href="book4.html">Part Four</a> &middot; <a href="book5.html">Part Five</a> &middot; <strong>Part Six: Fire</strong></nav>
+  </main>
+</body>
+</html>
