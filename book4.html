@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Book of Yusha, Part Four: Earth - reflections on form, grounding, stewardship, and the dangers of stagnation.">
+  <link rel="canonical" href="https://ana-yusha.github.io/the_book/book4.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Book of Yusha | Part Four: Earth">
+  <meta property="og:description" content="A reflection on formlessness, grounding, stewardship, and the structures that protect or confine life.">
+  <meta property="og:url" content="https://ana-yusha.github.io/the_book/book4.html">
+  <title>The Book of Yusha | Part Four: Earth</title>
+  <style>
+    :root { --canvas: #e7dfd1; --paper: #fffdf7; --ink: #2b2925; --quiet: #6c6256; --accent: #8b5a32; --rule: #d8c7ae; --shade: #f3eadc; --deep: #4d3826; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: repeating-linear-gradient(0deg, var(--canvas) 0, var(--canvas) 3px, #e1d6c6 4px); color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.78; }
+    a { color: var(--accent); }
+    .book { width: min(100%, 860px); min-height: 100vh; margin: 0 auto; padding: 38px clamp(20px, 6vw, 72px) 72px; background: var(--paper); box-shadow: 0 0 28px rgba(76, 54, 31, .12); }
+    .masthead, .chapter-label, .contents-title, .folio { font-family: "Palatino Linotype", Palatino, Georgia, serif; letter-spacing: .12em; text-transform: uppercase; }
+    .masthead { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); color: var(--quiet); font-size: .72rem; }
+    .title-page { min-height: 440px; display: grid; place-content: center; text-align: center; border-bottom: 1px solid var(--rule); }
+    h1, h2, h3 { font-weight: normal; }
+    h1 { margin: 0; font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: clamp(2.8rem, 8vw, 5rem); line-height: 1; }
+    .part { margin: 18px 0 0; color: var(--accent); font-size: .9rem; letter-spacing: .14em; text-transform: uppercase; }
+    .subtitle { max-width: 34ch; margin: 26px auto 0; color: var(--quiet); font-size: 1.25rem; line-height: 1.45; }
+    .contents { padding: 56px 0 42px; border-bottom: 1px solid var(--rule); }
+    .contents-title { margin: 0 0 20px; color: var(--quiet); font-size: .78rem; }
+    .contents ol { margin: 0; padding: 0; list-style: none; }
+    .contents li { border-bottom: 1px dotted var(--rule); }
+    .contents a { display: flex; justify-content: space-between; gap: 18px; padding: 9px 0; color: var(--ink); text-decoration: none; }
+    .contents a:hover { color: var(--accent); }
+    .chapter { padding: 68px 0 28px; scroll-margin-top: 16px; }
+    .chapter + .chapter { border-top: 1px solid var(--rule); }
+    .chapter-label { margin: 0 0 12px; color: var(--accent); font-size: .73rem; }
+    h2 { max-width: 20ch; margin: 0 0 30px; font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.08; }
+    h3 { margin: 38px 0 12px; font-size: 1.3rem; line-height: 1.25; }
+    p { margin: 0 0 22px; }
+    .opening::first-letter { float: left; margin: 7px 10px 0 0; color: var(--accent); font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: 4.5rem; line-height: .7; }
+    blockquote { margin: 34px 0; padding: 20px 24px; border-left: 3px solid var(--accent); background: var(--shade); color: var(--deep); font-size: 1.1rem; font-style: italic; }
+    .reflection { margin: 34px 0; padding: 22px 24px; border: 1px solid var(--rule); background: #fcf7ef; }
+    .reflection h3 { margin-top: 0; color: var(--accent); font-size: 1rem; }
+    .reflection p:last-child { margin-bottom: 0; }
+    .paired { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 28px 0 34px; }
+    .paired div { padding: 18px 20px; border: 1px solid var(--rule); background: var(--shade); }
+    .paired h3 { margin: 0 0 8px; color: var(--accent); font-size: 1.05rem; }
+    .paired p { margin: 0; font-size: .96rem; line-height: 1.55; }
+    .note { color: var(--quiet); font-size: .94rem; }
+    .afterword { padding: 58px 0 0; text-align: center; }
+    .afterword p { max-width: 42ch; margin-right: auto; margin-left: auto; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .skip-link { position: absolute; z-index: 1; top: 0; left: 0; padding: 12px 16px; background: var(--ink); color: #fff; transform: translateY(-120%); }
+    .skip-link:focus { transform: translateY(0); }
+    .folio { margin-top: 58px; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--quiet); font-size: .68rem; text-align: center; }
+    @media (max-width: 540px) { body { font-size: 17px; } .book { padding-top: 24px; } .masthead { font-size: .62rem; } .title-page { min-height: 360px; } .chapter { padding-top: 52px; } .paired { grid-template-columns: 1fr; } }
+    @media print { body { background: #fff; } .book { width: auto; padding: 0; box-shadow: none; } .chapter { break-before: page; } .title-page { break-after: page; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to main content</a>
+  <aside style="margin:16px auto;padding:14px 18px;max-width:860px;border:1px solid #b8755c;background:#fff4e9;color:#4b2a20;font-family:Georgia,serif;line-height:1.5;" aria-label="Crisis support information"><strong>Need immediate support?</strong> If you may harm yourself or are in immediate danger, call local emergency services. In the U.S. and Canada, call or text <a href="tel:988">988</a> for the Crisis Lifeline. Elsewhere, contact your local crisis service.</aside>
+  <main class="book" id="content" tabindex="-1">
+    <div class="masthead"><a href="index.html">The Book of Yusha</a><a href="book3.html">Part Three: The Water Tribe</a></div>
+    <header class="title-page" id="beginning">
+      <div>
+        <p class="part">Part Four</p>
+        <h1>Earth</h1>
+        <p class="subtitle">Before form, the ground waits: a meditation on grounding, stewardship, hunger, and the structures that protect or confine life.</p>
+      </div>
+    </header>
+    <nav class="contents" aria-label="Table of contents">
+      <p class="contents-title">Contents</p>
+      <ol>
+        <li><a href="#before-form"><span>1. Before Form</span><span>I</span></a></li>
+        <li><a href="#ground"><span>2. The Ground Beneath Us</span><span>II</span></a></li>
+        <li><a href="#soil"><span>3. Soil, Seed, and Stewardship</span><span>III</span></a></li>
+        <li><a href="#hunger"><span>4. Hunger Is Not a Metaphor</span><span>IV</span></a></li>
+        <li><a href="#corners"><span>5. The Four Corners of Need</span><span>V</span></a></li>
+        <li><a href="#hilt"><span>6. The Hilt in a Time of Scarcity</span><span>VI</span></a></li>
+        <li><a href="#change"><span>7. The Shape That Can Change</span><span>VII</span></a></li>
+      </ol>
+    </nav>
+    <article>
+      <section class="chapter" id="before-form">
+        <p class="chapter-label">Chapter One</p>
+        <h2>Before Form</h2>
+        <p class="opening">The first image of Earth is not a finished world. It is ground before arrangement: a place without a settled shape, boundary, or shared purpose. To say that the earth was first formed without form is a poetic reading of beginnings, not a scientific chronology. It names the experience of standing before a problem whose parts have not yet been separated or understood.</p>
+        <p>Form is not the enemy of freedom. A wall can shelter, a path can guide, a calendar can help a community remember, and a bowl can make nourishment shareable. But every form must remain answerable to life. A structure becomes harmful when it cannot be questioned, repaired, or opened to the people it claims to protect.</p>
+        <div class="paired">
+          <div><h3>Grounding</h3><p>Earth gives the body a place to stand, the seed a place to grow, and responsibility a boundary that can be kept.</p></div>
+          <div><h3>Stagnation</h3><p>Earth becomes harmful when fear hardens into hoarding, habit refuses repair, or structure turns living people into objects to contain.</p></div>
+        </div>
+        <p>The negative pole is a metaphor for what happens when grounding loses relationship, movement, and mercy. It is not an invisible substance or a diagnosis of a person. The work of Earth is discernment: what needs a boundary, what needs room, what needs a foundation, and what has become too rigid to sustain life?</p>
+        <div class="reflection"><h3>The first ground</h3><p>Name one fact beneath a current fear. Then name one structure that supports you and one structure that needs to change. Let form become a servant of life rather than its owner.</p></div>
+      </section>
+
+      <section class="chapter" id="ground">
+        <p class="chapter-label">Chapter Two</p>
+        <h2>The Ground Beneath Us</h2>
+        <p class="opening">Earth begins with material reality: soil, bodies, homes, food, water, work, and rest. These are not distractions from spiritual life. They are the conditions in which care becomes possible. A person who is hungry, unsafe, exhausted, or ill needs practical support before an abstract lesson about endurance.</p>
+        <p>Grounding means returning to what can be checked. Feel the floor, name the date, identify the next safe task, and ask which part of a crisis is fact rather than fear. Stagnation begins when a person mistakes repetition for truth or treats the first story about a situation as its final form.</p>
+        <blockquote>A foundation is not proved by how loudly it claims to be permanent. It is proved by whether life can safely stand on it.</blockquote>
+        <div class="reflection"><h3>The grounding practice</h3><p>Notice one physical fact, one reliable relationship, and one practical action available today. These do not solve every problem, but they return the next choice to the ground.</p></div>
+      </section>
+
+      <section class="chapter" id="soil">
+        <p class="chapter-label">Chapter Three</p>
+        <h2>Soil, Seed, and Stewardship</h2>
+        <p class="opening">Soil holds history. It receives what dies, supports what grows, and requires care long before a harvest appears. The image can guide a reflection on education, family, community, and memory, but it should not erase the actual labor and unequal conditions that shape food and land.</p>
+        <p>A seed needs both containment and change. Too little structure and it cannot take root; too much pressure and it cannot emerge. Earth asks whether our rules create conditions for life or merely preserve the comfort of those already inside the boundary.</p>
+        <p>Stewardship is not ownership without limits. It is attention to consequences across time: what the present takes from the future, what a household passes to a neighbor, and what a community calls progress while exhausting its soil, workers, or vulnerable people.</p>
+      </section>
+
+      <section class="chapter" id="hunger">
+        <p class="chapter-label">Chapter Four</p>
+        <h2>Hunger Is Not a Metaphor</h2>
+        <p class="opening">Famine is a severe lack of food that causes widespread hunger, malnutrition, and death. It can arise through drought, crop failure, conflict, displacement, economic collapse, political decisions, or failures in distribution. It is not simply a background for a story of survival. It is a human emergency that affects bodies, families, communities, and future generations.</p>
+        <p>The moral danger begins when scarcity becomes a reason to abandon dignity. Fear can make people hoard, leaders can use food as control, and public stories can hide the people who carry the cost. A humane response asks how to protect life, share reliable information, support effective relief, and refuse to treat hunger as proof that some lives matter less.</p>
+        <p class="note">Any current claim about a famine, food shortage, government policy, or affected community requires a reliable source before publication. This chapter uses famine as a real emergency and a moral test, not as spectacle.</p>
+      </section>
+
+      <section class="chapter" id="corners">
+        <p class="chapter-label">Chapter Five</p>
+        <h2>The Four Corners of Need</h2>
+        <p class="opening">The four corners in this book are food, water, shelter, and care. Each is necessary for life, and none should become a weapon. The fifth center is conscience: the question of whether a choice helps a person live with dignity or deepens another person's vulnerability.</p>
+        <p>Earth symbolizes the soil, crops, and material conditions that make food possible. Water carries nourishment and sanitation. Wind will later carry information and warning. Fire will later carry urgency and the energy required to act. Aether remains the reflective center where fear is checked by compassion and evidence. These are moral metaphors, not a scientific account of famine.</p>
+        <div class="reflection"><h3>The four-corner check</h3><p>When a person or community is in distress, ask what is needed materially before asking what the suffering symbolizes. Food, water, shelter, medical care, safety, and trustworthy information are forms of love that can be measured by their effects.</p></div>
+      </section>
+
+      <section class="chapter" id="hilt">
+        <p class="chapter-label">Chapter Six</p>
+        <h2>The Hilt in a Time of Scarcity</h2>
+        <p class="opening">The sword image becomes dangerous when people imagine that the only choices are to take or be taken from. The hilt is a different practice: pause before panic, verify what is true, protect children and vulnerable people, share where sharing is possible, and support accountable systems of relief.</p>
+        <p>Boundaries still matter, but they must serve life rather than cruelty. A boundary around a home can protect sleep. A public rule can protect distribution. A personal limit can stop one person from consuming another person's strength. The test is whether the boundary preserves dignity and leaves room for correction.</p>
+        <p>Hoarding is not only the act of storing too much. It can also be the belief that safety is possible only when no one else has enough. Earth answers that fear through stewardship: keep what is necessary, repair what can be repaired, and make shared systems strong enough that care does not depend on one person's private reserve.</p>
+      </section>
+
+      <section class="chapter" id="change">
+        <p class="chapter-label">Chapter Seven</p>
+        <h2>The Shape That Can Change</h2>
+        <p class="opening">A foundation is faithful when it can carry weight without pretending that every weight belongs on it forever. Earth teaches patience, but patience is not passive submission. A stable structure can be inspected, repaired, expanded, or dismantled when it harms the people within it.</p>
+        <p>We began with ground without a settled form. We end with a form that knows it is provisional. The house, the table, the law, and the story all need enough shape to hold life, and enough humility to be changed by the life they hold.</p>
+        <blockquote>What is solid should support return. What is rigid should learn to open.</blockquote>
+        <div class="reflection"><h3>The Earth question</h3><p>What form is needed now, and what form must be released? Let the answer be practical enough to protect a body, honest enough to admit uncertainty, and flexible enough to let life continue.</p></div>
+      </section>
+    </article>
+    <div class="afterword"><p>May the ground beneath us become a place of shelter, not a reason to stop growing. May what we build carry life without owning it.</p></div>
+    <nav class="folio" aria-label="Series navigation"><a href="index.html">Home</a> &middot; <a href="book2.html">Part Two</a> &middot; <a href="book3.html">Part Three</a> &middot; <strong>Part Four: Earth</strong></nav>
+  </main>
+</body>
+</html>

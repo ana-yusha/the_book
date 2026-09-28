@@ -8,3 +8,8 @@
 - [x] Remove the unresolved `www.thebookofyusha.com` custom-domain configuration.
 - [x] Review the published site at `https://ana-yusha.github.io/the_book/` after GitHub Pages redeploys.
 - [x] Add a sourced numerology and astrology reference section that recognizes their historical and symbolic importance without treating either as an explanation for all things; organize the material in small, clearly labeled parts so readers can examine one idea at a time.
+- [x] Draft and publish Book Four: Earth, pairing grounding with stagnation and preserving famine as its concrete shadow.
+- [ ] Draft Book Five: Wind, pairing perspective with confusion.
+- [ ] Draft Book Six: Fire, pairing courage with destruction.
+- [ ] Draft Book Seven: Aether, pairing conscience with false certainty.
+- [ ] Add Books Five through Seven to the index as each manuscript becomes publishable.
