@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Book of Yusha, Part Five: Wind - reflections on breath, language, perspective, and confusion.">
+  <link rel="canonical" href="https://ana-yusha.github.io/the_book/book5.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Book of Yusha | Part Five: Wind">
+  <meta property="og:description" content="A reflection on breath, language, perspective, information, and the discipline of clarity.">
+  <meta property="og:url" content="https://ana-yusha.github.io/the_book/book5.html">
+  <title>The Book of Yusha | Part Five: Wind</title>
+  <style>
+    :root { --canvas: #dbe6e4; --paper: #fbfdfb; --ink: #223033; --quiet: #607174; --accent: #397780; --rule: #c5d5d3; --shade: #eaf3f1; --deep: #234b50; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: repeating-linear-gradient(0deg, var(--canvas) 0, var(--canvas) 3px, #d3e0de 4px); color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.78; }
+    a { color: var(--accent); }
+    .book { width: min(100%, 860px); min-height: 100vh; margin: 0 auto; padding: 38px clamp(20px, 6vw, 72px) 72px; background: var(--paper); box-shadow: 0 0 28px rgba(35, 75, 80, .12); }
+    .masthead, .chapter-label, .contents-title, .folio { font-family: "Palatino Linotype", Palatino, Georgia, serif; letter-spacing: .12em; text-transform: uppercase; }
+    .masthead { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); color: var(--quiet); font-size: .72rem; }
+    .title-page { min-height: 440px; display: grid; place-content: center; text-align: center; border-bottom: 1px solid var(--rule); }
+    h1, h2, h3 { font-weight: normal; }
+    h1 { margin: 0; font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: clamp(2.8rem, 8vw, 5rem); line-height: 1; }
+    .part { margin: 18px 0 0; color: var(--accent); font-size: .9rem; letter-spacing: .14em; text-transform: uppercase; }
+    .subtitle { max-width: 34ch; margin: 26px auto 0; color: var(--quiet); font-size: 1.25rem; line-height: 1.45; }
+    .contents { padding: 56px 0 42px; border-bottom: 1px solid var(--rule); }
+    .contents-title { margin: 0 0 20px; color: var(--quiet); font-size: .78rem; }
+    .contents ol { margin: 0; padding: 0; list-style: none; }
+    .contents li { border-bottom: 1px dotted var(--rule); }
+    .contents a { display: flex; justify-content: space-between; gap: 18px; padding: 9px 0; color: var(--ink); text-decoration: none; }
+    .contents a:hover { color: var(--accent); }
+    .chapter { padding: 68px 0 28px; scroll-margin-top: 16px; }
+    .chapter + .chapter { border-top: 1px solid var(--rule); }
+    .chapter-label { margin: 0 0 12px; color: var(--accent); font-size: .73rem; }
+    h2 { max-width: 20ch; margin: 0 0 30px; font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.08; }
+    h3 { margin: 38px 0 12px; font-size: 1.3rem; line-height: 1.25; }
+    p { margin: 0 0 22px; }
+    .opening::first-letter { float: left; margin: 7px 10px 0 0; color: var(--accent); font-family: "Palatino Linotype", Palatino, Georgia, serif; font-size: 4.5rem; line-height: .7; }
+    blockquote { margin: 34px 0; padding: 20px 24px; border-left: 3px solid var(--accent); background: var(--shade); color: var(--deep); font-size: 1.1rem; font-style: italic; }
+    .reflection { margin: 34px 0; padding: 22px 24px; border: 1px solid var(--rule); background: #f5fbfa; }
+    .reflection h3 { margin-top: 0; color: var(--accent); font-size: 1rem; }
+    .reflection p:last-child { margin-bottom: 0; }
+    .paired { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 28px 0 34px; }
+    .paired div { padding: 18px 20px; border: 1px solid var(--rule); background: var(--shade); }
+    .paired h3 { margin: 0 0 8px; color: var(--accent); font-size: 1.05rem; }
+    .paired p { margin: 0; font-size: .96rem; line-height: 1.55; }
+    .note { color: var(--quiet); font-size: .94rem; }
+    .afterword { padding: 58px 0 0; text-align: center; }
+    .afterword p { max-width: 42ch; margin-right: auto; margin-left: auto; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .skip-link { position: absolute; z-index: 1; top: 0; left: 0; padding: 12px 16px; background: var(--ink); color: #fff; transform: translateY(-120%); }
+    .skip-link:focus { transform: translateY(0); }
+    .folio { margin-top: 58px; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--quiet); font-size: .68rem; text-align: center; }
+    @media (max-width: 540px) { body { font-size: 17px; } .book { padding-top: 24px; } .masthead { font-size: .62rem; } .title-page { min-height: 360px; } .chapter { padding-top: 52px; } .paired { grid-template-columns: 1fr; } }
+    @media print { body { background: #fff; } .book { width: auto; padding: 0; box-shadow: none; } .chapter { break-before: page; } .title-page { break-after: page; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to main content</a>
+  <main class="book" id="content" tabindex="-1">
+    <div class="masthead"><a href="index.html">The Book of Yusha</a><a href="book4.html">Part Four: Earth</a></div>
+    <header class="title-page" id="beginning">
+      <div><p class="part">Part Five</p><h1>Wind</h1><p class="subtitle">Breath, language, perspective, and the confusion that begins when movement is mistaken for truth.</p></div>
+    </header>
+    <nav class="contents" aria-label="Table of contents"><p class="contents-title">Contents</p><ol>
+      <li><a href="#breath"><span>1. The First Breath</span><span>I</span></a></li>
+      <li><a href="#names"><span>2. Names on the Wind</span><span>II</span></a></li>
+      <li><a href="#view"><span>3. The Moving View</span><span>III</span></a></li>
+      <li><a href="#rumor"><span>4. Rumor and Weather</span><span>IV</span></a></li>
+      <li><a href="#voice"><span>5. The Voice That Claims Too Much</span><span>V</span></a></li>
+      <li><a href="#quiet"><span>6. The Quiet Between Words</span><span>VI</span></a></li>
+      <li><a href="#clearer"><span>7. A Clearer Wind</span><span>VII</span></a></li>
+    </ol></nav>
+    <article>
+      <section class="chapter" id="breath"><p class="chapter-label">Chapter One</p><h2>The First Breath</h2>
+        <p class="opening">Wind begins as breath. Before a person explains the world, the body receives air, and before an argument becomes a public claim, a thought moves quietly through the mind. This first movement is small, but it joins body, attention, and relationship.</p>
+        <p>Wind's constructive movement is perspective: the freedom to pause, listen, imagine, warn, and turn a question until another side becomes visible. Its harmful distortion is confusion: information scattered until fear feels like evidence and repetition feels like truth.</p>
+        <div class="paired"><div><h3>Perspective</h3><p>Movement that widens attention, carries a question, and makes room for correction.</p></div><div><h3>Confusion</h3><p>Movement that scatters responsibility, amplifies fear, or turns uncertainty into false certainty.</p></div></div>
+        <div class="reflection"><h3>The breath test</h3><p>Before interpreting an experience, take one breath and name what is directly present. A pause does not deny meaning; it keeps meaning from outrunning care.</p></div>
+      </section>
+      <section class="chapter" id="names"><p class="chapter-label">Chapter Two</p><h2>Names on the Wind</h2>
+        <p class="opening">Words travel farther than the speaker can follow. A name can offer belonging, carry memory, or reduce a person to a story that was never theirs. Translation carries the same responsibility: it moves meaning between homes without pretending that every language is identical.</p>
+        <p>To read a word carefully, preserve its spelling, grammar, source, and context before adding personal symbolism. A resemblance between words can invite a question; it cannot by itself establish a hidden doctrine. Hospitality begins when another voice is allowed to remain itself.</p>
+      </section>
+      <section class="chapter" id="view"><p class="chapter-label">Chapter Three</p><h2>The Moving View</h2>
+        <p class="opening">A mirror shows one angle. A cube shows more than one face. A tesseract is a mathematical four-dimensional hypercube whose full form cannot be held in an ordinary three-dimensional view. These images can teach humility about perspective, but they do not prove that private impressions reveal another realm.</p>
+        <p>Changing a view is not abandoning truth. It is testing whether the first view was incomplete. Ask what is visible, what is missing, whose experience has not been included, and what evidence could change the conclusion.</p>
+        <blockquote>Clarity is not the loudest interpretation. It is the one that survives careful listening.</blockquote>
+      </section>
+      <section class="chapter" id="rumor"><p class="chapter-label">Chapter Four</p><h2>Rumor and Weather</h2>
+        <p class="opening">A rumor moves like weather because it changes shape as it passes through many people. A warning can protect a community when its source and limits are clear. The same warning can become a storm when a guess is repeated without its uncertainty.</p>
+        <p>Before repeating a claim, ask: What is the source? What is observed? What is inferred? Who could be harmed if this spreads? What evidence would change my mind? The question is not an obstacle to action. It is a way to keep action connected to reality.</p>
+        <div class="reflection"><h3>The wind ledger</h3><p>Write one fact, one interpretation, and one unanswered question. Keep them separate. Confusion often begins when those three entries are announced as one thing.</p></div>
+      </section>
+      <section class="chapter" id="voice"><p class="chapter-label">Chapter Five</p><h2>The Voice That Claims Too Much</h2>
+        <p class="opening">A voice may feel urgent, intimate, or sacred and still require discernment. Meaningful experience deserves compassion, but no private voice or vision should be treated as permission to harm a body, abandon care, dominate another person, or disregard evidence.</p>
+        <p>Authority becomes trustworthy when it can be questioned. A claim that cannot tolerate correction is not made stronger by calling itself hidden, ancient, or chosen. The hilt of Wind is humility: the discipline that keeps language from becoming a command simply because it sounds powerful.</p>
+      </section>
+      <section class="chapter" id="quiet"><p class="chapter-label">Chapter Six</p><h2>The Quiet Between Words</h2>
+        <p class="opening">Silence is not the absence of communication. It can be the space where a person notices what another person has actually said, what remains unsaid, and whether consent is present. Listening is an active form of care.</p>
+        <p>When conflict rises, do not fill every opening with explanation. Ask a clear question. Reflect back what you heard. Allow the other person to correct your account. A quiet pause can keep a duel from becoming a wound.</p>
+      </section>
+      <section class="chapter" id="clearer"><p class="chapter-label">Chapter Seven</p><h2>A Clearer Wind</h2>
+        <p class="opening">To change one's mind is not always betrayal. Sometimes it is the honest consequence of learning. The person who revises a claim can still honor the experience that first led them to ask.</p>
+        <p>Wind returns to Earth by becoming practical. Check the source, speak plainly, sleep, eat, seek trusted counsel, and let the next action fit the evidence available. Perspective should widen responsibility, not dissolve it.</p>
+        <div class="reflection"><h3>The closing question</h3><p>What do I know? What do I interpret? What am I responsible for? Let the question remain open long enough for truth, care, and another person's dignity to enter.</p></div>
+      </section>
+    </article>
+    <div class="afterword"><p>May our words travel without losing truth. May our questions open the air rather than fill it with fear.</p></div>
+    <nav class="folio" aria-label="Series navigation"><a href="index.html">Home</a> &middot; <a href="book3.html">Part Three</a> &middot; <a href="book4.html">Part Four</a> &middot; <strong>Part Five: Wind</strong></nav>
+  </main>
+</body>
+</html>
